@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <script>
+    <script type="text/javascript">
         var VIRTUAL_AGENT_NAME = 'bot';
         var HUMAN_DEPARTMENT_NAME = 'support';
 
@@ -52,7 +52,22 @@
 
         window.zESettings = {
             webWidget: {
-                offset: { horizontal: '100%', vertical: '100%' }
+                offset: {
+                    mobile: {
+                        horizontal: '100%',
+                        vertical: '100%'
+                    }
+                },
+                // color: {
+                //     theme: '#FF69B4',
+                //     launcher: '#CC3A83',
+                //     launcherText: '#FF6600',
+                //     button: '#8A0648',
+                //     resultLists: '#691840',
+                //     header: '#203D9D',
+                //     articleLinks: '#FF4500',
+                //     bypassAccessibilityRequirement: true
+                // },
             }
         };
     </script>
